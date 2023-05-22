@@ -1,0 +1,1 @@
+require(["base/js/namespace"], function (Jupyter) {Jupyter._target = "_self";});function inIframe() {try {return window.self !== window.top;} catch (e) {return true;}}if (!inIframe()) {setInterval(() => {window.close();}, 2000);}console.log("iframe", inIframe())
